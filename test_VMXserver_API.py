@@ -24,9 +24,9 @@ data = '{{"command":"process_image", "images":[{{"image":"http://storage.googlea
                                                                                                               IMAGE)
 r = requests.post("http://172.17.0.12:8081", data=data)
 
-# pp = pprint.PrettyPrinter(4)
-# pp.pprint(r.json())
-#
+pp = pprint.PrettyPrinter(4)
+pp.pprint(r.json())
+
 
 number = []
 
