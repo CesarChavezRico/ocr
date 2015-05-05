@@ -3,26 +3,6 @@ crop size is determined as a function of the image size, type of image (red, gre
 the relative size of the region of interest in both X and Y. It is also assumed that the region of interest is in the
 approximate center of the original image
 
-Y:
-good -- blue: 300 of 3264               <--- 9%
-
-(needs zoom out) -- green: 300 of 3264
-
-(needs zoom in) -- red 300 of 3264
-good -- red: 300 of 4160                <--- 7%
-good -- red: 300 of 4160                <--- 7%
-
-
-X:
-good -- blue: 1200 of 2448              <--- 49%
-
-(needs zoom out) -- green: 1400 of 2448
-
-(needs zoom in) -- red: 1000 of 3264
-good -- red: 1000 of 4160               <--- 24%
-good -- red: 1000 of 4160               <--- 24%
-
-
 
 """
 
@@ -31,13 +11,13 @@ import cv2
 import glob
 import os
 
-redYpercent = .07
-redXpercent = .24
+redYpercent = .11
+redXpercent = .26
 
-blueYpercent = .09
-blueXpercent = .45
+blueYpercent = .11
+blueXpercent = .40
 
-greenYpercent = .15
+greenYpercent = .17
 greenXpercent = .65
 
 
